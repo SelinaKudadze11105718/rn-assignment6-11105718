@@ -22,7 +22,7 @@ export default function App() {
       
       <NavigationContainer>
             <Stack.Navigator initialRouteName="Home" screenOptions={{
-              headerShown:true  
+              headerShown:false  
                }}>
                 <Stack.Screen name="Home" component={HomeScreen}/>
                 <Stack.Screen name="Cart" component={CartScreen}/>

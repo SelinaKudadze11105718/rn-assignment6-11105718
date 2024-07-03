@@ -87,7 +87,7 @@ export default function CartScreen({route,navigation}){
                                 </View>
                                
                                     
-                                    <Pressable onPress={removeItem(item?.Key)} style={{marginTop:40,marginLeft:130}}>
+                                    <Pressable onPress={removeItem} style={{marginTop:40,marginLeft:130}}>
                                         <Image source={require("../assets/remove.png")}/>
                                     </Pressable>
                                 </View>  
